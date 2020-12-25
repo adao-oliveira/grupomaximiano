@@ -300,6 +300,7 @@ footer{
 }
 .box a{
     color: #848484;
+    text-transform: uppercase;
 }
 .box .content{
   margin: 20px 0 0 0;
@@ -330,13 +331,14 @@ footer{
 }
 .left .content .social{
   margin: 20px 0 0 0;
+  text-align: center;
 }
 .left .content .social a{
   padding: 0 2px;
 }
 .left .content .social a span{
   height: 40px;
-  width: 40px;
+  width: 80px;
   background: #1a1a1a;
   line-height: 40px;
   text-align: center;
@@ -351,7 +353,7 @@ footer{
   font-size: 1.4375rem;
   background: #1a1a1a;
   height: 45px;
-  width: 45px;
+  width: 80px;
   line-height: 45px;
   text-align: center;
   border-radius: 50%;
@@ -417,6 +419,7 @@ footer{
 }
 .right form .btn{
   margin-top: 10px;
+  width: 100%;
 }
 .right form .btn button{
   height: 40px;
@@ -511,7 +514,7 @@ footer{
      color: #010101;
 }
  .about-box-main{
-     padding: 70px 0px;
+     padding: 20px 0px;
 }
  .noo-sh-title{
      font-size: 28px;
