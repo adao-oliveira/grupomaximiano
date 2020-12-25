@@ -11,7 +11,6 @@ export default function Footer() {
               <p>Resumo sobre nossa empresa</p>
               <div className="social">
                 <a href="#"><span className="fab fa-facebook-f"></span></a>
-                <a href="#"><span className="#"></span></a>
                 <a href="https://instagram.com/grupomaximiano/"><span className="fab fa-instagram"></span></a>
                 <a href="#"><span className="fab fa-whatsapp"></span></a>
               </div>
@@ -52,7 +51,7 @@ export default function Footer() {
                 </li>
                 <p>
                   <li>
-                    <a href="#">Contato com um departamento específico</a>
+                    <a href="#">Contatar um departamento específico</a>
                   </li>
                 </p>
                 <p>
