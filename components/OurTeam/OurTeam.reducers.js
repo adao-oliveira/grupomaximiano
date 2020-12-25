@@ -2,28 +2,28 @@ const initialState = [
   {
     name: "Adão Oliveira",
     designation: "Programador",
-    image: "images/adao.jpg",
+    image: "../public/images/adao.jpg",
     about:
       "Sobre mim...",
   },
   {
     name: "Edna Santos",
     designation: "Marketing",
-    image: "images/edna.jpg",
+    image: "../public/images/edna.jpg",
     about:
     "Sobre mim...",
   },
   {
     name: "Ródnei Santos",
     designation: "Comercial",
-    image: "images/rodnei.jpg",
+    image: "../public/images/rodnei.jpg",
     about:
     "Sobre mim...",
   },
   {
     name: "Glauciane",
     designation: "Tráfego Pago",
-    image: "images/glauciane.jpg",
+    image: "../public/images/glauciane.jpg",
     about:
     "Sobre mim...",
   },
