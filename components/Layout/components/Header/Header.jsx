@@ -47,6 +47,7 @@ export default function Header() {
                 className="nav navbar-nav ml-auto"
                 data-in="fadeInDown"
                 data-out="fadeOutUp"
+                id="menu"
               >
                 <li className="nav-item">
                   <Link href="/">

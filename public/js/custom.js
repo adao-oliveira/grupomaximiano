@@ -56,22 +56,22 @@
     });
   });
 
-  // $(document).ready(function( close ){
-  //   var uls = close('#menu ul');
-  //   uls.hide();
+  $(document).ready(function( close ){
+    var uls = close('#menu ul');
+    uls.hide();
   
-  //   close('#menu > li').click(function( e ){
-  //     e.stopPropagation();
-  //     uls.hide();
-  //     close( this ).find('ul').show();
-  //   });
-  //   close('#menu ul').click(function( e ){
-  //     e.stopPropagation();
-  //   });
-  //   close('body').click(function(){
-  //     uls.hide();
-  //   });
-  // });
+    close('#menu > li').click(function( e ){
+      e.stopPropagation();
+      uls.hide();
+      close( this ).find('ul').show();
+    });
+    close('#menu ul').click(function( e ){
+      e.stopPropagation();
+    });
+    close('body').click(function(){
+      uls.hide();
+    });
+  });
   
 
 })(jQuery);
