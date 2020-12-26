@@ -5,7 +5,7 @@ export default function OurTeam({ teamMembers = [] }) {
   return (
     <div className="row my-4">
       <div className="col-12">
-        <h2 className="noo-sh-title">Nosso time</h2>
+        <h2 className="noo-sh-title text-center">Nosso time</h2>
       </div>
       {teamMembers.map((memberDetails, index) => (
         <div className="col-sm-6 col-lg-3" key={index}>
