@@ -56,22 +56,20 @@
     });
   });
 
-  $(document).ready(function( close ){
-    var uls = close('#menu ul');
-    uls.hide();
-  
-    close('#menu > li').click(function( e ){
-      e.stopPropagation();
-      uls.hide();
-      close( this ).find('ul').show();
-    });
-    close('#menu ul').click(function( e ){
-      e.stopPropagation();
-    });
-    close('body').click(function(){
-      uls.hide();
-    });
-  });
+  // close dropdown menu when clicking on an element
+
+  $(document).on('click', function(event) {
+    var $clickedOn = $(event.target),
+        $collapsableItems = $('.collapse'),
+        isToggleButton = ($clickedOn.closest('.navbar-toggle').length == 1),
+        isLink = ($clickedOn.closest('a').length == 1),
+        isOutsideNavbar = ($clickedOn.parents('.navbar').length == 0);
+    if ((!isToggleButton && isLink) || isOutsideNavbar) {
+        $collapsableItems.each(function() {
+            $(this).collapse('hide');
+        });
+    }
+});
   
 
 })(jQuery);

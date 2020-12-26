@@ -26,7 +26,6 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/bootstrap.min.css" />
           <link rel="stylesheet" href="/css/style.css" />
           <link rel="stylesheet" href="/css/responsive.css" /> 
-          <link rel="stylesheet" href="/css/tailwind.css" />
         </Head>
         <body>
           <Main />

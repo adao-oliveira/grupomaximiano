@@ -42,7 +42,7 @@ export default function Header() {
               </a>
             </div>
 
-            <div className="collapse navbar-collapse" id="navbar-menu">
+            <div className="navbar-collapse collapse" id="navbar-menu">
               <ul
                 className="nav navbar-nav ml-auto"
                 data-in="fadeInDown"

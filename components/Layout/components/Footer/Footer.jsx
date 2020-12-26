@@ -1,4 +1,17 @@
 import React from "react";
+import emailjs from "emailjs-com";
+
+function sendEmail(e) {
+  e.preventDefault();
+
+  emailjs.sendForm('default_service', 'template_qvd5itp', e.target, 'user_Tt7GNjO9FBsXikJoRoA0s')
+    .then((result) => {
+      alert("E-mail enviado com sucesso");
+    }, (error) => {
+      alert("Ocorreu um erro inesperado, verifique os dados e tente novamente!");
+    });
+  e.target.reset()
+}
 
 export default function Footer() {
   return (
@@ -66,18 +79,18 @@ export default function Footer() {
           <div className="right box">
             <h2>Suporte</h2>
             <div className="content">
-              <form action="#">
+              <form onSubmit={sendEmail}>
                 <div className="name">
                   <div className="text">Nome completo *</div>
-                  <input type="name" required />
+                  <input type='nome' name="from_name" id="from_name" required />
                 </div>
                 <div className="email">
-                  <div className="text">Seu Email *</div>
-                  <input type="email" required />
+                  <div className="text">Seu melhor e-mail *</div>
+                  <input type="email" name="reply_to" id="reply_to" required />
                 </div>
                 <div className="msg">
                   <div className="text">Assunto... *</div>
-                  <textarea rows="2" cols="25" required></textarea>
+                  <textarea rows="2" cols="25" type='assunto' name="mensagem" id="mensagem" required></textarea>
                 </div>
                 <div className="btn">
                   <button type="submit">Enviar</button>

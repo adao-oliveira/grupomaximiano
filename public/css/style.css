@@ -106,10 +106,6 @@
  p{
      margin: 0px;
 }
- .form-control::-moz-placeholder {
-     color: #ffffff;
-     opacity: 1;
-}
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
  #back-to-top {
     position: fixed;
@@ -125,9 +121,6 @@
      background: #010101;
      padding: 10px 0px;
 }
- .dropdown-toggle::after{
-     margin-left: -24px;
-}
 /* Navbar Adjusment =========================== */
 /* Navbar Atribute ------*/
  @media (min-width: 1024px) {
@@ -141,9 +134,6 @@
     }
      nav.navbar .navbar-brand{
          margin-top: 0;
-    }
-     nav.navbar li.dropdown ul.dropdown-menu{
-         border-top: solid 5px;
     }
     /* Navbar Center ------*/
      nav.navbar-center .navbar-brand{
@@ -178,24 +168,6 @@
      nav.navbar .navbar-brand img.logo{
          width: 160px;
     }
-    /* Navbar Mobile slide ------*/
-     nav.navbar.navbar-mobile ul.nav > li > a{
-         padding: 15px 15px;
-    }
-     nav.navbar.navbar-mobile ul.nav ul.dropdown-menu > li > a{
-         padding-right: 15px !important;
-         padding-top: 15px !important;
-         padding-bottom: 15px !important;
-    }
-     nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title{
-         padding-right: 30px !important;
-         padding-top: 13px !important;
-         padding-bottom: 13px !important;
-    }
-     nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a{
-         padding-top: 13px !important;
-         padding-bottom: 13px !important;
-    }
     /* Navbar Full ------*/
      nav.navbar-full .navbar-brand{
          top: 0;
@@ -228,54 +200,16 @@
      left: auto;
 }
  .main-header.fixed-menu {
-     position: fixed;
-     visibility: hidden;
-     left: 0px;
-     top: 0px;
-     width: 100%;
-     padding: 0px 0px;
-     background: #ffffff;
-     z-index: 0;
-     transition: all 500ms ease;
-     -moz-transition: all 500ms ease;
-     -webkit-transition: all 500ms ease;
-     -ms-transition: all 500ms ease;
-     -o-transition: all 500ms ease;
-     z-index: 999;
-     opacity: 1;
-     visibility: visible;
-     -ms-animation-name: fadeInDown;
-     -moz-animation-name: fadeInDown;
-     -op-animation-name: fadeInDown;
-     -webkit-animation-name: fadeInDown;
-     animation-name: fadeInDown;
-     -ms-animation-duration: 500ms;
-     -moz-animation-duration: 500ms;
-     -op-animation-duration: 500ms;
-     -webkit-animation-duration: 500ms;
-     animation-duration: 500ms;
-     -ms-animation-timing-function: linear;
-     -moz-animation-timing-function: linear;
-     -op-animation-timing-function: linear;
-     -webkit-animation-timing-function: linear;
-     animation-timing-function: linear;
-     -ms-animation-iteration-count: 1;
-     -moz-animation-iteration-count: 1;
-     -op-animation-iteration-count: 1;
-     -webkit-animation-iteration-count: 1;
-     animation-iteration-count: 1;
-}
- .main-header.fixed-menu {
      padding: 0px;
      box-shadow: 0 0 8px 0 #ffd700;
      border-radius: 0;
 }
 .main-header h2 {
     color: white;
-         margin-right: 7px;
-         padding-top: 6px;
-         float: right;
-         margin-top: 10px;
+    margin-right: 7px;
+    padding-top: 6px;
+    float: right;
+    margin-top: 10px;
 }
 /*------------------------------------------- Footer Main -----------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
@@ -312,7 +246,7 @@ footer{
   top: -10px;
   height: 2px;
   width: 100%;
-  background: #1a1a1a;
+  background: #FF0000;
 }
 .box .content:after{
   position: absolute;
@@ -327,7 +261,7 @@ footer{
   color: #848484;
 }
 .left .content a{
-  color: #848484;
+  color: #ffd700;
 }
 .left .content .social{
   margin: 20px 0 0 0;
@@ -347,7 +281,7 @@ footer{
   transition: 0.3s;
 }
 .left .content .social a span:hover{
-  background: #ffd700;
+  background: #FF0000;
 }
 .center .content .fas{
   font-size: 1.4375rem;
@@ -409,6 +343,7 @@ footer{
   background: #151515;
   padding-left: 10px;
   border: 1px solid #ffd700;
+  color: #FF0040;
 }
 .right form input:focus,
 .right form textarea:focus{
@@ -467,54 +402,9 @@ footer{
 }
 
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
- .all-title-box{
-     background: url("../images/all-bg-title.jpg") no-repeat center center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -ms-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     text-align: center;
-     background-attachment: fixed;
-     padding: 70px 0px;
-     position: relative;
-}
- .all-title-box::before{
-     background: rgba(0,0,0,0.6);
-     content: "";
-     position: absolute;
-     z-index: 0;
-     width: 100%;
-     height: 100%;
-     left: 0px;
-     top: 0px;
-}
- .all-title-box h2{
-     font-size: 28px;
-     font-weight: 700;
-     color: #ffffff;
-     padding-bottom: 30px;
-}
- .all-title-box .breadcrumb{
-     background: #ffd700;
-     margin: 0px;
-     display: inline-block;
-     border-radius: 0px;
-}
- .all-title-box .breadcrumb li{
-     display: inline-block;
-     color: #010101;
-     font-size: 16px;
-}
- .all-title-box .breadcrumb li a{
-     color: #ffffff;
-     font-size: 16px;
-}
- .all-title-box .breadcrumb-item + .breadcrumb-item::before{
-     color: #010101;
-}
  .about-box-main{
      padding: 20px 0px;
+     background-color: #FF0000;
 }
  .noo-sh-title{
      font-size: 28px;
