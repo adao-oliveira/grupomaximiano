@@ -34,7 +34,7 @@ export default function Sobre() {
               <div className="banner-frame">
                 <img
                   className="img-thumbnail img-fluid"
-                  src="/images/about-img.jpg"
+                  src="/images/about-img.JPG"
                   alt=""
                 />
               </div>
