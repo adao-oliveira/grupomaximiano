@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "../styles/form.css";
+import "../styles/tailwind.css";
 import Layout from "../components/Layout/Layout";
 import { Provider } from "react-redux";
 import { store } from "../store";

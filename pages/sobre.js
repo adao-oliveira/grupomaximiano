@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
+import Image from 'next/image';
 
 const OurTeam = dynamic(
   () => import("../components/OurTeam/OurTeam.container"),
@@ -32,10 +33,12 @@ export default function Sobre() {
             </div>
             <div className="col-lg-6">
               <div className="banner-frame">
-                <img
+                <Image
                   className="img-thumbnail img-fluid"
                   src="/images/about-img.JPG"
-                  alt=""
+                  width="5184"
+                  height="3456"
+                  alt="img-background"
                 />
               </div>
             </div>

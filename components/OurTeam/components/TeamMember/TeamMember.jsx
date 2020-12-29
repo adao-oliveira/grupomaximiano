@@ -1,10 +1,11 @@
 import React from "react";
+import Image from 'next/image';
 
 export default function TeamMember({ name, designation, image, sobre }) {
   return (
     <div className="hover-team">
       <div className="our-team">
-        <img src={image} alt={name} />
+        <Image src={image} alt={name} width="3456" height="5184"/>
         <div className="team-content">
           <h3 className="title">{name}</h3>
           <span className="post">{designation}</span>
