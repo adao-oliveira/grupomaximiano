@@ -28,7 +28,8 @@ class MyDocument extends Document {
                 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
                 <link rel="stylesheet" href="/css/bootstrap.min.css" />
                 <link rel="stylesheet" href="/css/style.css" />
-                <link rel="stylesheet" href="/css/responsive.css" /> 
+                <link rel="stylesheet" href="/css/responsive.css" />
+                <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"></link> 
         </Head>
               <body>
                 <Main />
