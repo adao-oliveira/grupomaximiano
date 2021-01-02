@@ -49,9 +49,8 @@ export default function Sobre() {
       </div>
       <section className="bg-gray-300 -mt-24">
         <div id="our-process" className="relative">
-          <div className="flex flex-wrap items-center flex">
-            <div className="w-full md:w-12/12 px-4 text-center">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+        <div className="col-lg-8 px-4 ml-auto mr-auto text-center">
+              <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
                   src="/images/about-img.JPG"
@@ -61,7 +60,6 @@ export default function Sobre() {
                 />
               </div>
             </div>
-          </div>
         </div>
       </section>
 

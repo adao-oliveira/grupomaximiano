@@ -23,9 +23,9 @@ export default function Home() {
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
-              <h2 className="noo-sh-title text-white text-3xl">
-                Nós somos o <br/><span className="text-warning text-3xl">Grupo Maximiano</span>
-              </h2>
+                <h2 className="noo-sh-title text-white text-3xl">
+                  Nós somos o <br /><span className="text-warning text-3xl">Grupo Maximiano</span>
+                </h2>
               </div>
             </div>
           </div>
@@ -38,6 +38,8 @@ export default function Home() {
       </div>
 
       {/* end home */}
+
+      {/* start sobre a empresa */}
 
       <section className=" bg-redblue -mt-24">
         <div id="our-process" className="relative">
@@ -89,17 +91,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div id="about-us" className="bg-gray-300 mt-30 py-12">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/2">
-              <h3 className="flex flex-col text-4xl text-dark font-normal mb-6">Por que nos escolher?<span className="bg-primary h-1 w-20 block mt-4"></span></h3>
-              <p className="text-lg text-secondary-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus, et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.</p>
-              <p className="text-lg text-secondary-700">Aliquam eget semper mi. Mauris magna risus, viverra in nulla id, placerat fermentum tellus. Aliquam non.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* end sobre a empresa */}
 
       {/* start detalhes da empresa */}
 
@@ -141,60 +133,102 @@ export default function Home() {
       </section>
 
       {/* end detalhes da empresa */}
-      {/* start nossos servicos */}
 
-      <div id="services" className="relative bg-gray-200">
-        <img src="/images/circle.svg" className="absolute top-0 right-0 mt-64 hidden md:block" />
-        <div className="container mx-auto px-6 py-16 relative">
-          <h3 className="flex flex-col items-center text-4xl text-secondary font-bold">Nossos serviços<span className="bg-primary h-1 w-20 block mt-4"></span></h3>
-          <div className="flex flex-col md:flex-row items-center mb-24 md:mb-16 xl:mb-8 mt-16 md:mt-0 md:mt-16 lg:mt-0">
-            <img src="/images/service1.svg" className="md:w-1/3" />
-            <div className="md:ml-16 xl:ml-32">
-              <h4 className="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Desenvolvimento Web</h4>
-              <p className="text-secondary-700 text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus, et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.</p>
-              <p className="text-secondary-700 text-lg">Aliquam eget semper mi. Mauris magna risus, viverra in nulla id, placerat fermentum tellus. Aliquam non felis eu dui fermentum auctor. Aenean sed ante congue, facilisis ipsum eu, gravida lacus.</p>
-              <Link href="/servicos">
-                <button type="button" className="btn btn-dark mt-4">Saiba mais</button>
-              </Link>
+
+
+
+      <div className="about-box-main">
+        <div className="container">
+          <div className="bg-white mt-30 py-12 rounded-lg">
+            <div className="container mx-auto px-6">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-1/2">
+                  <h3 className="flex flex-col text-4xl text-dark font-normal mb-6">
+                    Por que nos escolher?
+                    <span className="bg-primary h-1 w-25 block mt-4"></span>
+                  </h3>
+                  <p className="text-lg text-secondary-700 mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus,
+                    et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.
+                  </p>
+                  <p className="text-lg text-secondary-700">
+                    Aliquam eget semper mi. Mauris magna risus, viverra in nulla id,
+                    placerat fermentum tellus. Aliquam non.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row items-center mb-24 md:mb-16 xl:mb-8">
-            <div className="md:mr-16 xl:mr-32">
-              <h4 className="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Marketing Digital</h4>
-              <p className="text-secondary-700 text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus, et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.</p>
-              <p className="text-secondary-700 text-lg">Aliquam eget semper mi. Mauris magna risus, viverra in nulla id, placerat fermentum tellus. Aliquam non felis eu dui fermentum auctor. Aenean sed ante congue, facilisis ipsum eu, gravida lacus.</p>
-              <Link href="/servicos">
-                <button type="button" className="btn btn-dark mt-4">Saiba mais</button>
-              </Link>
+
+          <br />
+
+          <div className="bg-white mt-30 py-12 rounded-lg">
+            <div className="container mx-auto px-6">
+              <div className="flex flex-col md:flex-row">
+                <div className="md:w-1/2">
+                  <h3 className="flex flex-col text-4xl text-dark font-normal mb-6">
+                    Nossas vantagens
+                    <span className="bg-primary h-1 w-25 block mt-4"></span>
+                  </h3>
+
+                </div>
+              </div>
             </div>
-            <img src="/images/service2.svg" className="md:w-1/3" />
-          </div>
-          <div className="flex flex-col md:flex-row items-center">
-            <img src="/images/service3.svg" className="md:w-1/3" />
-            <div className="md:ml-16 xl:ml-32">
-              <h4 className="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Tráfego pago</h4>
-              <p className="text-secondary-700 text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus, et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.</p>
-              <p className="text-secondary-700 text-lg">Aliquam eget semper mi. Mauris magna risus, viverra in nulla id, placerat fermentum tellus. Aliquam non felis eu dui fermentum auctor. Aenean sed ante congue, facilisis ipsum eu, gravida lacus.</p>
-              <Link href="/servicos">
-                <button type="button" className="btn btn-dark mt-4">Saiba mais</button>
-              </Link>
+            <div className="row my-4 mr-1 ml-1">
+              <div className="col-sm-6 col-lg-4">
+                <div className="service-block-inner">
+                  <h3 className="text-center">Lorem ipsum</h3>
+                  <Image
+                    className="img-thumbnail img-fluid"
+                    src="/images/bgHome.JPG"
+                    width="5184"
+                    height="3456"
+                    alt="img-background"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                </div>
+              </div>
+              <div className="col-sm-6 col-lg-4">
+                <div className="service-block-inner">
+                  <h3 className="text-center">Lorem ipsum</h3>
+                  <Image
+                    className="img-thumbnail img-fluid"
+                    src="/images/bgHome.JPG"
+                    width="5184"
+                    height="3456"
+                    alt="img-background"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                </div>
+              </div>
+              <div className="col-sm-6 col-lg-4">
+                <div className="service-block-inner">
+                  <h3 className="text-center">Lorem ipsum</h3>
+                  <Image
+                    className="img-thumbnail img-fluid"
+                    src="/images/bgHome.JPG"
+                    width="5184"
+                    height="3456"
+                    alt="img-background"
+                  />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center mt-16 md:mt-0 md:mt-16 lg:mt-0">
-            <div className="md:ml-16 xl:ml-32">
-              <h4 className="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Comercial</h4>
-              <p className="text-secondary-700 text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus, et consequat sem sodales id. Quisque molestie et mauris efficitur lacinia.</p>
-              <p className="text-secondary-700 text-lg">Aliquam eget semper mi. Mauris magna risus, viverra in nulla id, placerat fermentum tellus. Aliquam non felis eu dui fermentum auctor. Aenean sed ante congue, facilisis ipsum eu, gravida lacus.</p>
-              <Link href="/servicos">
-                <button type="button" className="btn btn-dark mt-4">Saiba mais</button>
-              </Link>
-            </div>
-            <img src="/images/service1.svg" className="md:w-1/3" />
-          </div>
+
         </div>
       </div>
 
-      {/* end nossos servicos */}
 
       <section className="pb-16">
         <div className="container mx-auto px-4">
