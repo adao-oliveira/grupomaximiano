@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* start sobre a empresa */}
 
-      <section className=" bg-redblue -mt-24">
+      <section className="bg-redblue -mt-24">
         <div id="our-process" className="relative">
           <div className="flex flex-wrap items-center flex">
             <div className="w-full md:w-4/12 px-4 text-center">
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-6/12 ml-auto mr-auto">
               <Image
-                src="/images/bgHome.JPG"
+                src="/images/img-5.JPG"
                 width="5184"
                 height="3456"
                 alt="..."
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <Link href="/servicos">
-            <button type="button" className="btn btn-dark mt-4">Saiba mais sobre nossos serviços</button>
+            <button type="button" className="btn bg-warning mt-4 text-dark font-semibold">Saiba mais sobre nossos serviços</button>
           </Link>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function Home() {
                 <div className="md:w-1/2">
                   <h3 className="flex flex-col text-4xl text-dark font-normal mb-6">
                     Por que nos escolher?
-                    <span className="bg-primary h-1 w-25 block mt-4"></span>
+                    <span className="bg-warning h-1 w-25 block mt-4"></span>
                   </h3>
                   <p className="text-lg text-secondary-700 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus,
@@ -168,7 +168,7 @@ export default function Home() {
                 <div className="md:w-1/2">
                   <h3 className="flex flex-col text-4xl text-dark font-normal mb-6">
                     Nossas vantagens
-                    <span className="bg-primary h-1 w-25 block mt-4"></span>
+                    <span className="bg-warning h-1 w-25 block mt-4"></span>
                   </h3>
 
                 </div>

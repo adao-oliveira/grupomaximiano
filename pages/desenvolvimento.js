@@ -10,7 +10,7 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-6">
               <h2 className="noo-sh-title">
-                O site dos seus sonhos <span className="text-green-500"><br />Nós podemos criar</span>
+                O site dos seus sonhos <span className="text-warning"><br />Nós podemos criar</span>
               </h2>
               <p>
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem

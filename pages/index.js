@@ -1,17 +1,7 @@
 import React from "react";
-import dynamic from "next/dynamic";
-import OurTeamLoader from "../components/OurTeam/OurTeamLoader";
 import Image from 'next/image';
 import Link from 'next/link';
 
-
-const OurTeam = dynamic(
-  () => import("../components/OurTeam/OurTeam.container"),
-  {
-    loading: () => <OurTeamLoader />,
-    ssr: false,
-  }
-);
 
 export default function Sobre() {
   return (
@@ -85,7 +75,7 @@ export default function Sobre() {
               <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
-                  src="/images/fundo.JPG"
+                  src="/images/img-6.JPG"
                   width="5184"
                   height="3456"
                   alt="img-background"
@@ -93,7 +83,7 @@ export default function Sobre() {
               </div>
               <div className="flex justify-center">
                 <Link href="/sobre">
-                  <button type="button" className="btn bg-yellow-600 mt-4 text-white text-normal">Saiba mais sobre nós</button>
+                  <button type="button" className="btn bg-warning mt-4 text-dark font-semibold">Saiba mais sobre nós</button>
                 </Link>
               </div>
             </div>
@@ -127,7 +117,196 @@ export default function Sobre() {
               </div>
             </div>
           </div>
-          <OurTeam />
+
+
+          <section className="pb-16">
+            <div className="container mx-auto px-4">
+              <div className="flex flex-wrap justify-center text-center">
+                <div className="w-full lg:w-6/12 px-4">
+                  <h2 className="mt-5 text-4xl font-semibold">Conheça nosso time</h2>
+                  <p className="text-lg leading-relaxed m-4 text-gray-600">
+                    Cada integrante de nosso time possui sua respectiva habilidade, conheça um pouco sobre cada um de nossos integrantes:
+                </p>
+                </div>
+              </div>
+              <div className="flex flex-wrap">
+                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
+                  <div className="px-6">
+                    <Image
+                      src="/images/img-1.JPG"
+                      width="3456"
+                      height="5184"
+                      alt="..."
+                      className="mx-auto max-w-120-px"
+                    />
+                    <div className="text-center">
+                      <h5 className="mt-1 text-xl font-bold">Adão Oliveira</h5>
+                      <p className="text-sm text-gray-500 uppercase font-semibold">
+                        Programador
+                    </p>
+                      <div>
+                        <button
+                          className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-facebook-f"></i>
+                        </button>
+                        <button
+                          className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </button>
+                        <button
+                          className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-whatsapp"></i>
+                        </button>
+                        <button
+                          className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fas fa-envelope-square"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
+                  <div className="px-6">
+                    <Image
+                      src="/images/img-2.JPG"
+                      width="3456"
+                      height="5184"
+                      alt="..."
+                      className="mx-auto max-w-120-px"
+                    />
+                    <div className="text-center">
+                      <h5 className="mt-1 text-xl font-bold">Edna Santos</h5>
+                      <p className="text-sm text-gray-500 uppercase font-semibold">
+                        Marketing
+                    </p>
+                      <div>
+                        <button
+                          className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-facebook-f"></i>
+                        </button>
+                        <button
+                          className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </button>
+                        <button
+                          className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-whatsapp"></i>
+                        </button>
+                        <button
+                          className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fas fa-envelope-square"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
+                  <div className="px-6">
+                    <Image
+                      src="/images/img-3.JPG"
+                      width="3456"
+                      height="5184"
+                      alt="..."
+                      className="mx-auto max-w-120-px"
+                    />
+                    <div className="text-center">
+                      <h5 className="mt-1 text-xl font-bold">Rodnei Santos</h5>
+                      <p className="text-sm text-gray-500 uppercase font-semibold">
+                        Comercial
+                    </p>
+                      <div>
+                        <button
+                          className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-facebook-f"></i>
+                        </button>
+                        <button
+                          className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </button>
+                        <button
+                          className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-whatsapp"></i>
+                        </button>
+                        <button
+                          className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fas fa-envelope-square"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-3">
+                  <div className="px-6">
+                    <Image
+                      src="/images/img-4.JPG"
+                      width="3456"
+                      height="5184"
+                      alt="..."
+                      className="mx-auto max-w-120-px"
+                    />
+                    <div className="text-center">
+                      <h5 className="mt-1 text-xl font-bold">Glauciane</h5>
+                      <p className="text-sm text-gray-500 uppercase font-semibold">
+                        Tráfego pago
+                    </p>
+                      <div>
+                        <button
+                          className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-facebook-f"></i>
+                        </button>
+                        <button
+                          className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-instagram"></i>
+                        </button>
+                        <button
+                          className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i className="fab fa-whatsapp"></i>
+                        </button>
+                        <button
+                          className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
+                          type="button"
+                        >
+                          <i class="fas fa-envelope-square"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
         </div>
       </div>
       <div className="relative">

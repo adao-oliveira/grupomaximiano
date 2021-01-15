@@ -64,11 +64,6 @@ export default function Footer() {
                 </li>
                 <p>
                   <li>
-                    <a href="#">Contatar um departamento específico</a>
-                  </li>
-                </p>
-                <p>
-                  <li>
                     <a href="#">Que tal marcar um café?</a>
                   </li>
                 </p>
