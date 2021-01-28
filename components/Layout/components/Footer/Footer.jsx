@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('default_service', 'template_qvd5itp', e.target, 'user_Tt7GNjO9FBsXikJoRoA0s')
+  emailjs.sendForm('default_service', 'template_11rzc34', e.target, 'user_Tt7GNjO9FBsXikJoRoA0s')
     .then((result) => {
       alert("E-mail enviado com sucesso");
     }, (error) => {
@@ -50,29 +50,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="center box">
-            <h2>Contate-nos</h2>
-            <div className="content">
-              <ul>
-                <li>
-                  <p>
-                    {" "}
-                    <a href="mailto:contato@grupomaximiano.com">
-                      contato@grupomaximiano.com
-                    </a>
-                  </p>
-                </li>
-                <p>
-                  <li>
-                    <a href="#">Que tal marcar um café?</a>
-                  </li>
-                </p>
-              </ul>
-            </div>
-          </div>
-
           <div className="right box">
-            <h2>Suporte</h2>
+            <h2>Fale conosco</h2>
             <div className="content">
               <form onSubmit={sendEmail}>
                 <div className="name">
@@ -91,6 +70,15 @@ export default function Footer() {
                   <button type="submit">Enviar</button>
                 </div>
               </form>
+              <div className="center box">
+              <ul className="text-center">
+                <p>
+                  <li>
+                    <a href="#">Que tal marcar um café?</a>
+                  </li>
+                </p>
+              </ul>
+              </div>
             </div>
           </div>
         </div>
