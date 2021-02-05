@@ -39,6 +39,7 @@ class MyDocument extends Document {
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/images-loded.min.js"></script>
                 <script src="/js/custom.js"></script>
+                <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-1ea3fedbd4144c81bb2ea0685bbee30e.js'></script>
               </body>
       </Html>
     );
