@@ -315,6 +315,12 @@ footer{
   border-color: #f9a826;
   padding-left: 20px;
   }
+  .right .content ul li a:hover{
+    color: #ffd700;
+    border-color: #f9a826;
+    padding-left: 20px;
+    }
+  
 
 .center .content ul li a::before {
   font-family: FontAwesome;

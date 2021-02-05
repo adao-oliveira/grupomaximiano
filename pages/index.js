@@ -43,7 +43,7 @@ export default function Sobre() {
               <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
-                  src="/images/about-img.JPG"
+                  src="/images/about-img.webp"
                   width="5184"
                   height="3456"
                   alt="img-background"
@@ -75,7 +75,7 @@ export default function Sobre() {
               <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
-                  src="/images/img-6.JPG"
+                  src="/images/img-6.webp"
                   width="5184"
                   height="3456"
                   alt="img-background"
@@ -133,7 +133,7 @@ export default function Sobre() {
                 <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
                   <div className="px-6">
                     <Image
-                      src="/images/img-1.JPG"
+                      src="/images/img-1.webp"
                       width="3456"
                       height="5184"
                       alt="..."
@@ -176,7 +176,7 @@ export default function Sobre() {
                 <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
                   <div className="px-6">
                     <Image
-                      src="/images/img-2.JPG"
+                      src="/images/img-2.webp"
                       width="3456"
                       height="5184"
                       alt="..."
@@ -219,7 +219,7 @@ export default function Sobre() {
                 <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
                   <div className="px-6">
                     <Image
-                      src="/images/img-3.JPG"
+                      src="/images/img-3.webp"
                       width="3456"
                       height="5184"
                       alt="..."
@@ -262,7 +262,7 @@ export default function Sobre() {
                 <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-3">
                   <div className="px-6">
                     <Image
-                      src="/images/img-4.JPG"
+                      src="/images/img-4.webp"
                       width="3456"
                       height="5184"
                       alt="..."

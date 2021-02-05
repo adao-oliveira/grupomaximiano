@@ -44,7 +44,7 @@ export default function Footer() {
                   <a href="#">Comercial</a>
                 </li>
                 <li>
-                  <a href="#">Desenvolvimento</a>
+                  <a href="/desenvolvimento">Desenvolvimento</a>
                 </li>
               </ul>
             </div>

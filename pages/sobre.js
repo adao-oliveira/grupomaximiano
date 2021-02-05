@@ -106,7 +106,7 @@ export default function Home() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-6/12 ml-auto mr-auto">
               <Image
-                src="/images/img-5.JPG"
+                src="/images/img-5.webp"
                 width="5184"
                 height="3456"
                 alt="..."
@@ -180,7 +180,7 @@ export default function Home() {
                   <h3 className="text-center">Lorem ipsum</h3>
                   <Image
                     className="img-thumbnail img-fluid"
-                    src="/images/bgHome.JPG"
+                    src="/images/bgHome.webp"
                     width="5184"
                     height="3456"
                     alt="img-background"
@@ -196,7 +196,7 @@ export default function Home() {
                   <h3 className="text-center">Lorem ipsum</h3>
                   <Image
                     className="img-thumbnail img-fluid"
-                    src="/images/bgHome.JPG"
+                    src="/images/bgHome.webp"
                     width="5184"
                     height="3456"
                     alt="img-background"
@@ -212,7 +212,7 @@ export default function Home() {
                   <h3 className="text-center">Lorem ipsum</h3>
                   <Image
                     className="img-thumbnail img-fluid"
-                    src="/images/bgHome.JPG"
+                    src="/images/bgHome.webp"
                     width="5184"
                     height="3456"
                     alt="img-background"
@@ -244,7 +244,7 @@ export default function Home() {
             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
               <div className="px-6">
                 <Image
-                  src="/images/img-1.JPG"
+                  src="/images/img-1.webp"
                   width="3456"
                   height="5184"
                   alt="..."
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
               <div className="px-6">
                 <Image
-                  src="/images/img-2.JPG"
+                  src="/images/img-2.webp"
                   width="3456"
                   height="5184"
                   alt="..."
@@ -318,7 +318,7 @@ export default function Home() {
             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
               <div className="px-6">
                 <Image
-                  src="/images/img-3.JPG"
+                  src="/images/img-3.webp"
                   width="3456"
                   height="5184"
                   alt="..."
@@ -355,7 +355,7 @@ export default function Home() {
             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-3">
               <div className="px-6">
                 <Image
-                  src="/images/img-4.JPG"
+                  src="/images/img-4.webp"
                   width="3456"
                   height="5184"
                   alt="..."
