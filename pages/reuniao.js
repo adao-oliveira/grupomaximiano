@@ -31,7 +31,7 @@ const SignIn = () => {
             </div>
             <div className="input-block">
               <label htmlFor='for'>Número para contato</label>
-              <input type="tell" name="telefone" id="telefone" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
+              <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
             </div>
             <div className="input-block">
               <label htmlFor='for'>Assunto...</label>

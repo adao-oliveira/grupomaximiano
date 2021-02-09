@@ -1,10 +1,10 @@
-(function ($) {
+(function($) {
   "use strict";
 
   /* ..............................................
 	   Loader 
 	   ................................................. */
-  $(window).on("load", function () {
+  $(window).on("load", function() {
     $(".preloader").fadeOut();
     $("#preloader").delay(550).fadeOut("slow");
     $("body").delay(450).css({
@@ -16,7 +16,7 @@
 	   Fixed Menu
 	   ................................................. */
 
-  $(window).on("scroll", function () {
+  $(window).on("scroll", function() {
     if ($(window).scrollTop() > 50) {
       $(".main-header").addClass("fixed-menu");
     } else {
@@ -29,7 +29,7 @@
 	   Tooltip
 	   ................................................. */
 
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip();
   });
 
@@ -37,17 +37,16 @@
 	   Scroll
 	   ................................................. */
 
-  $(document).ready(function () {
-    $(window).on("scroll", function () {
+  $(document).ready(function() {
+    $(window).on("scroll", function() {
       if ($(this).scrollTop() > 100) {
         $("#back-to-top").fadeIn();
       } else {
         $("#back-to-top").fadeOut();
       }
     });
-    $("#back-to-top").click(function () {
-      $("html, body").animate(
-        {
+    $("#back-to-top").click(function() {
+      $("html, body").animate({
           scrollTop: 0,
         },
         600
@@ -60,30 +59,30 @@
 
   $(document).on('click', function(event) {
     var $clickedOn = $(event.target),
-        $collapsableItems = $('.collapse'),
-        isToggleButton = ($clickedOn.closest('.navbar-toggle').length == 1),
-        isLink = ($clickedOn.closest('a').length == 1),
-        isOutsideNavbar = ($clickedOn.parents('.navbar').length == 0);
+      $collapsableItems = $('.collapse'),
+      isToggleButton = ($clickedOn.closest('.navbar-toggle').length == 1),
+      isLink = ($clickedOn.closest('a').length == 1),
+      isOutsideNavbar = ($clickedOn.parents('.navbar').length == 0);
     if ((!isToggleButton && isLink) || isOutsideNavbar) {
-        $collapsableItems.each(function() {
-            $(this).collapse('hide');
-        });
+      $collapsableItems.each(function() {
+        $(this).collapse('hide');
+      });
     }
-});
+  });
 
-$(document).ready(function(){
+  $(document).ready(function() {
 
-  var SPMaskBehavior = function (val) {
-    return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
-  },
-  spOptions = {
-    onKeyPress: function(val, e, field, options) {
-    field.mask(SPMaskBehavior.apply({}, arguments), options);
-    }
-  };
-  $("#telefone").mask(SPMaskBehavior, spOptions);	
+    var SPMaskBehavior = function(val) {
+        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+      },
+      spOptions = {
+        onKeyPress: function(val, e, field, options) {
+          field.mask(SPMaskBehavior.apply({}, arguments), options);
+        }
+      };
+    $("#telefone").mask(SPMaskBehavior, spOptions);
 
   })
-  
+
 
 })(jQuery);
