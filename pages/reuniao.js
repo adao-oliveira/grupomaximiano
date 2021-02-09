@@ -30,6 +30,10 @@ const SignIn = () => {
               <input type="email" name="reply_to" id="reply_to" required />
             </div>
             <div className="input-block">
+              <label htmlFor='for'>Número para contato</label>
+              <input type="tell" name="telefone" id="telefone" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
+            </div>
+            <div className="input-block">
               <label htmlFor='for'>Assunto...</label>
               <textarea type='assunto' className="form-control" rows="6" name="mensagem" id="mensagem" required></textarea>
             </div>

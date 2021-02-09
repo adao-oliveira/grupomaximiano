@@ -40,6 +40,8 @@ class MyDocument extends Document {
                 <script src="/js/images-loded.min.js"></script>
                 <script src="/js/custom.js"></script>
                 <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-1ea3fedbd4144c81bb2ea0685bbee30e.js'></script>
+                <script type="text/javascript" src=" https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
+
               </body>
       </Html>
     );

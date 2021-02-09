@@ -95,8 +95,10 @@ export default function Header() {
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item">
-                    <a href="https://linktr.ee/grupo_maximiano" className="nav-link">Contate-Nos</a>
+                <li>
+                  <Link href="https://linktree.com.br/new/GrupoMaximiano">
+                    <a className="nav-link">Contate-Nos</a>
+                  </Link>
                 </li>
                 <Link href="/reuniao">
                   <button type="button" class="btn btn-warning">MARCAR REUNIÃO</button>

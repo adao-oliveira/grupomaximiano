@@ -62,6 +62,10 @@ export default function Footer() {
                   <div className="text">Seu melhor e-mail *</div>
                   <input type="email" name="reply_to" id="reply_to" required />
                 </div>
+                <div className="tell">
+                  <div className="text">Número para contato *</div>
+                  <input type="tell" name="telefone" id="telefone" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
+                </div>
                 <div className="msg">
                   <div className="text">Assunto... *</div>
                   <textarea rows="2" cols="25" type='assunto' name="mensagem" id="mensagem" required></textarea>
