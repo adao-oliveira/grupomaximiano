@@ -19,7 +19,6 @@
 -------------------------------------------------------------------*/
 
 @import url(all.css);
-@import url(code_animate.css);
 @import url(bootsnav.css);
 @import url(jquery-ui.css);
 
@@ -30,81 +29,6 @@
      font-size: 15px;
      font-family: 'Quattrocento Sans', sans-serif;
      line-height: 1.80857;
-}
- a {
-     color: #1f1f1f;
-     text-decoration: none !important;
-     outline: none !important;
-     -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     -ms-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
-}
- h1, h2, h3, h4, h5, h6 {
-     letter-spacing: 0;
-     font-weight: normal;
-     position: relative;
-     padding: 0 0 10px 0;
-     font-weight: normal;
-     line-height: 120% !important;
-     color: #1f1f1f;
-     margin: 0 
-}
- h1 {
-     font-size: 24px 
-}
- h2 {
-     font-size: 22px 
-}
- h3 {
-     font-size: 18px 
-}
- h4 {
-     font-size: 16px 
-}
- h5 {
-     font-size: 14px 
-}
- h6 {
-     font-size: 13px 
-}
- h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-     color: #212121;
-     text-decoration: none!important;
-     opacity: 1 
-}
- h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-     opacity: .8 
-}
- a {
-     color: #1f1f1f;
-     text-decoration: none;
-     outline: none;
-}
- a, .btn {
-     text-decoration: none !important;
-     outline: none !important;
-     -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     -ms-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
-}
- ul, li, ol{
-     list-style: none;
-     margin: 0px;
-     padding: 0px;
-}
- button:focus{
-     outline: none;
-     box-shadow: none;
-}
- :focus {
-     outline: 0;
-}
- p{
-     margin: 0px;
 }
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
  #back-to-top {
@@ -178,6 +102,7 @@
 
  nav.navbar.bootsnav ul.nav > li > a{
      position: relative;
+     font-family: 'Courier New', Courier, monospace;
      font-weight: 700;
      font-size: 16px;
      color: #D8D8D8;
@@ -229,7 +154,7 @@ footer{
 .box h2{
   color: #D8D8D8;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform: uppercase;
 }
 .box a{
@@ -239,6 +164,8 @@ footer{
 .box .content{
   margin: 20px 0 0 0;
   position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.0625rem;
 }
 .box .content:before{
   position: absolute;
@@ -340,6 +267,7 @@ footer{
 
 .right form .text{
   font-size: 1.0625rem;
+  font-family: 'Courier New', Courier, monospace;
   margin-bottom: 2px;
   color: rgba(255, 255, 255, 0.666);
 }
@@ -364,6 +292,7 @@ footer{
 .right form .btn{
   margin-top: 10px;
   width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .right form .btn button{
   height: 40px;
@@ -381,19 +310,19 @@ footer{
 .right form .btn button:hover{
   background: #f1f1f1;
 }
-.bottom center{
+.copyright center{
   padding: 5px;
   font-size: 0.9375rem;
   background: #151515;
 }
-.bottom center span{
+.copyright center span{
   color: #ffd700;
 }
-.bottom center a{
+.copyright center a{
   color: #ffd700;
   text-decoration: none;
 }
-.bottom center a:hover{
+.copyright center a:hover{
   text-decoration: underline;
 }
 @media screen and (max-width: 900px) {
@@ -464,4 +393,22 @@ footer{
 }
  .service-block-inner:hover::after {
      height: 100%;
+}
+
+
+/*------------------------------------------------------------------ FONTS ALL PAGES -------------------------------------------------------------------*/
+
+h1, h2, h3, .copyright {
+  font-family: 'Courier New', Courier, monospace;
+}
+h4, h5, h6, button, .btn {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+  font-family: Garamond;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("../webfonts/Garamond.ttf");
 }

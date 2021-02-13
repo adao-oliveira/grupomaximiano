@@ -73,7 +73,7 @@
   $(document).ready(function() {
 
     var SPMaskBehavior = function(val) {
-        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 00000-0000';
       },
       spOptions = {
         onKeyPress: function(val, e, field, options) {
@@ -81,7 +81,7 @@
         }
       };
     $("#telefone").mask(SPMaskBehavior, spOptions);
-
+    if(!((SPMaskBehavior >= "0") && (SPMaskBehavior <= "9")));
   })
 
 

@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
           <meta charset="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -18,10 +18,10 @@ class MyDocument extends Document {
 
                 {/* OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ */}
                 <meta property="og:site_name" content="Grupo Maximiano" /> {/* website name */}
-                <meta property="og:site" content="" /> {/* website link */}
+                <meta property="og:site" content="https://grupomaximiano.com.br" /> {/* website link */}
                 <meta property="og:title" content="Grupo Maximiano" /> {/* title shown in the actual shared post */}
                 <meta property="og:description" content="A startup qe irá revolucionar seus negócios. Confira mais em nosso site." /> {/* description shown in the actual shared post */}
-                <meta property="og:image" content="" /> {/* image link, make sure it's jpg */}
+                <meta property="og:image" content="../public/images/bgHome.webp" /> {/* image link, make sure it's jpg */}
                 <meta property="og:url" content="" /> {/* where do you want your post to link to */}
                 <meta property="og:type" content="article" />
 
@@ -41,7 +41,6 @@ class MyDocument extends Document {
                 <script src="/js/custom.js"></script>
                 <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-1ea3fedbd4144c81bb2ea0685bbee30e.js'></script>
                 <script type="text/javascript" src=" https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
-
               </body>
       </Html>
     );

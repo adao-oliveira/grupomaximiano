@@ -36,10 +36,12 @@ export default function Header() {
               >
                 <i className="fa fa-bars"></i>
               </button>
-              <a className="navbar-brand" href="index.html">
+              <Link href="/">
+              <a className="navbar-brand">
                 <h2>Grupo Maximiano</h2>
                 {/* <img src="images/logo.jpg" className="logo" alt="" /> */}
               </a>
+              </Link>
             </div>
 
             <div className="navbar-collapse collapse" id="navbar-menu">

@@ -31,7 +31,7 @@ const SignIn = () => {
             </div>
             <div className="input-block">
               <label htmlFor='for'>Número para contato</label>
-              <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
+              <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" required />
             </div>
             <div className="input-block">
               <label htmlFor='for'>Assunto...</label>
@@ -63,6 +63,7 @@ const SignIn = () => {
     font-size: 20px;
     font-weight: 200;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .form-wrapper form {

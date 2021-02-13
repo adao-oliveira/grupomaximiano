@@ -145,30 +145,38 @@ export default function Sobre() {
                         Programador
                     </p>
                       <div>
+                      <Link href="https://www.facebook.com/AdaoOliveira.17">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-facebook-f"></i>
                         </button>
+                      </Link>
+                      <Link href="https://www.instagram.com/daoo_oliveira/">
                         <button
                           className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-instagram"></i>
                         </button>
+                      </Link>
+                      <Link href="/">
                         <button
                           className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-whatsapp"></i>
                         </button>
+                      </Link>
+                      <Link href="mailto:adao.domingos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
                         <button
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i class="fas fa-envelope-square"></i>
                         </button>
+                      </Link>
                       </div>
                     </div>
                   </div>
@@ -188,30 +196,38 @@ export default function Sobre() {
                         Marketing
                     </p>
                       <div>
+                      <Link href="https://www.facebook.com/edna.maximiano">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-facebook-f"></i>
                         </button>
+                      </Link>
+                      <Link href="https://www.instagram.com/edna_maximiano/">
                         <button
                           className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-instagram"></i>
                         </button>
+                      </Link>
+                      <Link href="/">
                         <button
                           className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-whatsapp"></i>
                         </button>
+                      </Link>
+                      <Link href="mailto:edna.santos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
                         <button
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i class="fas fa-envelope-square"></i>
                         </button>
+                      </Link>
                       </div>
                     </div>
                   </div>
@@ -231,30 +247,38 @@ export default function Sobre() {
                         Comercial
                     </p>
                       <div>
+                      <Link href="https://www.facebook.com/rodneymaximianosilva">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-facebook-f"></i>
                         </button>
+                      </Link>
+                      <Link href="https://www.instagram.com/rodneymaximianosilva/">
                         <button
                           className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-instagram"></i>
                         </button>
+                      </Link>
+                      <Link href="/">
                         <button
                           className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-whatsapp"></i>
                         </button>
+                      </Link>
+                      <Link href="mailto:rodney.santos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
                         <button
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i class="fas fa-envelope-square"></i>
                         </button>
+                      </Link>
                       </div>
                     </div>
                   </div>
@@ -274,30 +298,38 @@ export default function Sobre() {
                         Tráfego pago
                     </p>
                       <div>
+                      <Link href="/">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-facebook-f"></i>
                         </button>
+                      </Link>
+                      <Link href="https://www.instagram.com/glaucianecarvalho_/">
                         <button
                           className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-instagram"></i>
                         </button>
+                      </Link>
+                      <Link href="https://api.whatsapp.com/send?phone=5511991639596&text=Ol%C3%A1!%20Eu%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20a%20respeito%20de%20seu%20neg%C3%B3cio.">
                         <button
                           className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i className="fab fa-whatsapp"></i>
                         </button>
+                      </Link>
+                      <Link href="mailto:glauciane.carvalho@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
                         <button
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
                           <i class="fas fa-envelope-square"></i>
                         </button>
+                      </Link>
                       </div>
                     </div>
                   </div>

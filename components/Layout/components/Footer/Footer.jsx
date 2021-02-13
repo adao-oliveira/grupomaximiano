@@ -64,7 +64,7 @@ export default function Footer() {
                 </div>
                 <div className="tell">
                   <div className="text">Número para contato *</div>
-                  <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" placeholder="(xx) xxxxx-xxxx" required />
+                  <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" required />
                 </div>
                 <div className="msg">
                   <div className="text">Assunto... *</div>
@@ -86,7 +86,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bottom">
+        <div className="copyright">
           <center>
             <span className="credit"><a href="#">Grupo Maximiano</a></span>
             <br /><i className="far fa-copyright text-warning"></i>
