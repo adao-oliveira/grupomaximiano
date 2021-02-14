@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('default_service', 'template_11rzc34', e.target, 'user_Tt7GNjO9FBsXikJoRoA0s')
+  emailjs.sendForm('default_service', 'template_031t0h1', e.target, 'user_1Xm2ZD2laRm9dZW4AjqHV')
     .then((result) => {
       alert("E-mail enviado com sucesso");
     }, (error) => {
@@ -60,7 +60,7 @@ export default function Footer() {
                 </div>
                 <div className="email">
                   <div className="text">Seu melhor e-mail *</div>
-                  <input type="email" name="reply_to" id="reply_to" required />
+                  <input type="email" name="email" id="email" required />
                 </div>
                 <div className="tell">
                   <div className="text">Número para contato *</div>

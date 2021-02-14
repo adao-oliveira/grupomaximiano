@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('default_service', 'template_qvd5itp', e.target, 'user_Tt7GNjO9FBsXikJoRoA0s')
+  emailjs.sendForm('default_service', 'template_on209se', e.target, 'user_1Xm2ZD2laRm9dZW4AjqHV')
     .then((result) => {
       alert("E-mail enviado com sucesso");
     }, (error) => {
@@ -27,7 +27,7 @@ const SignIn = () => {
             </div>
             <div className="input-block">
               <label htmlFor='for'>Seu melhor e-mail</label>
-              <input type="email" name="reply_to" id="reply_to" required />
+              <input type="email" name="email" id="email" required />
             </div>
             <div className="input-block">
               <label htmlFor='for'>Número para contato</label>
@@ -37,7 +37,7 @@ const SignIn = () => {
               <label htmlFor='for'>Assunto...</label>
               <textarea type='assunto' className="form-control" rows="6" name="mensagem" id="mensagem" required></textarea>
             </div>
-            <button type='submit' className="btn-login">Enviar Mensagem</button>
+            <button type='submit' className="button">Enviar Mensagem</button>
           </form>
         </div>
       </section>
@@ -86,14 +86,29 @@ const SignIn = () => {
     width: 100%;
     margin-top: 8px;
     padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     color: #111;
-    border-radius: 2px;
-    border: 1px solid #ccddef;
-    outline-color: #ffd700;
+    outline:none;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: inset 9px 9px 19px #d9d9d9, inset -9px -9px 19px #ffffff;
+  }
+
+  textarea {
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 30vw;
+    margin: 10px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: inset 9px 9px 19px #d9d9d9, inset -9px -9px 19px #ffffff;
   }
   
-  .form-wrapper form .btn-login {
+  .form-wrapper form .button {
     display: block;
     min-width: 120px;
     border: none;
@@ -103,31 +118,31 @@ const SignIn = () => {
     margin: auto;
     padding: 7px;
   }
-  
+
   /* APARIÇÃO DO FORM */
   .form-wrapper form {
     overflow: hidden;
     animation: fade 0.2s;
   }
   
-  .form-wrapper form .input-block:nth-child(1) {
+  .form-wrapper form .input-block,textarea:nth-child(1) {
     animation: move 500ms;
   }
   
-  .form-wrapper form .input-block:nth-child(2) {
+  .form-wrapper form .input-block,textarea:nth-child(2) {
     animation: move 400ms;
     animation-delay: 100ms;
     animation-fill-mode: backwards;
   }
   
-  .form-wrapper form .btn-login {
+  .form-wrapper form .button {
     animation: move 400ms;
     animation-delay: 250ms;
     animation-fill-mode: backwards;
     cursor: pointer;
   }
   
-  .form-wrapper form .btn-login:hover {
+  .form-wrapper form .button:hover {
     background-color:rgba(0, 187, 0, 0.748);
   }
   

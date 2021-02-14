@@ -25,7 +25,7 @@ export default function Sobre() {
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
                 <h1 className="text-white font-semibold text-5xl">
-                  Sua história começa conosco
+                  SUA HISTÓRIA COMEÇA CONOSCO
                   </h1>
               </div>
             </div>
