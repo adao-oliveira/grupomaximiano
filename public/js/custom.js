@@ -70,19 +70,24 @@
     }
   });
 
+      // mascara telefone e bloqueio de letras
+
   $(document).ready(function() {
 
     var SPMaskBehavior = function(val) {
         return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 00000-0000';
       },
       spOptions = {
-        onKeyPress: function(val, e, field, options) {
+        onkeypress: function(val, e, field, options) {
           field.mask(SPMaskBehavior.apply({}, arguments), options);
         }
       };
     $("#telefone").mask(SPMaskBehavior, spOptions);
     if(!((SPMaskBehavior >= "0") && (SPMaskBehavior <= "9")));
   })
+
+
+  // efeito digitação pagima home
 
 
 })(jQuery);

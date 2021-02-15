@@ -38,7 +38,7 @@ export default function Header() {
               </button>
               <Link href="/">
               <a className="navbar-brand">
-                <h2>Grupo Maximiano</h2>
+                <h2>GRUPO MAXIMIANO</h2>
                 {/* <img src="images/logo.jpg" className="logo" alt="" /> */}
               </a>
               </Link>

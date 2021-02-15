@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('default_service', 'template_031t0h1', e.target, 'user_1Xm2ZD2laRm9dZW4AjqHV')
+  emailjs.sendForm('default_service', 'template_ga2ba7p', e.target, 'user_VqAgkVtnF9Zj7pBBYzQLF')
     .then((result) => {
       alert("E-mail enviado com sucesso");
     }, (error) => {
@@ -64,7 +64,7 @@ export default function Footer() {
                 </div>
                 <div className="tell">
                   <div className="text">Número para contato *</div>
-                  <input type="tell" name="telefone" id="telefone" MAXLENGTH="11" onkeypress="mascara(this)" required />
+                  <input type="tell" name="telefone" id="telefone" maxLength="11" onkeypress="mascara(this)" required />
                 </div>
                 <div className="msg">
                   <div className="text">Assunto... *</div>
@@ -76,11 +76,9 @@ export default function Footer() {
               </form>
               <div className="center box">
               <ul className="text-center">
-                <p>
                   <li>
                     <a href="#">Que tal marcar um café?</a>
                   </li>
-                </p>
               </ul>
               </div>
             </div>

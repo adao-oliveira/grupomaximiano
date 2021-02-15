@@ -22,9 +22,9 @@ export default function Home() {
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div>
-                <h2 className="noo-sh-title text-white text-3xl">
-                  Nós somos o <br /><span className="text-warning text-3xl">Grupo Maximiano</span>
+              <div className="text-block">
+                <h2 className="noo-sh-title text-white text-3xl" id="textSlider">
+                  Nós somos o <br /><span className="text-warning text-3xl" id="textSlider">Grupo Maximiano</span>
                 </h2>
               </div>
             </div>

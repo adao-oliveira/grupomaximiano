@@ -1,32 +1,49 @@
 import React from "react";
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useRef, useState } from "react";
+import NET from "vanta/dist/vanta.net.min";
+import * as THREE from "three";
 
 
 export default function Sobre() {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+  useEffect(() => {
+    if (!vantaEffect) {
+      setVantaEffect(
+        NET({
+          el: vantaRef.current,
+          THREE,
+          color: 0xd8d8d8,
+          backgroundColor: 0x111111,
+          maxDistance: 23,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+        })
+      );
+    }
+  }, [vantaEffect]);
   return (
     <>
       {/* start home */}
 
       <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-        <div className="absolute top-0 w-full h-full bg-center bg-cover"
-          style={{
-            backgroundImage:
-              "url('https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia_52683-25766.jpg?size=626&ext=jpg&ga=GA1.2.1160983724.1608940800')",
-          }}
-        >
-          <span
-            id="blackOverlay"
-            className="w-full h-full absolute opacity-75 bg-black"
-          ></span>
+        <div className="absolute top-0 w-full h-full bg-center bg-cover" id="main">
+        <main id="blackOverlay" className="w-full h-full absolute" ref={vantaRef}></main>
         </div>
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div>
-                <h1 className="text-white font-semibold text-5xl">
-                  SUA HISTÓRIA COMEÇA CONOSCO
-                  </h1>
+                <h1 className="text-golden font-semibold text-5xl typewrite" id="text">
+                    SUA HISTÓRIA COMEÇA CONOSCO
+                </h1>
               </div>
             </div>
           </div>

@@ -2188,6 +2188,11 @@ video {
   color: rgba(0, 0, 0, var(--text-opacity));
 }
 
+.text-golden {
+  color: #ffbf00;
+  background-color: rgba(255, 255, 255, 0.185);
+}
+
 .text-white {
   --text-opacity: 1;
   color: #fff;

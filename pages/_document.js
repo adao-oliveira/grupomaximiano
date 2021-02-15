@@ -20,10 +20,11 @@ class MyDocument extends Document {
                 <meta property="og:site_name" content="Grupo Maximiano" /> {/* website name */}
                 <meta property="og:site" content="https://grupomaximiano.com.br" /> {/* website link */}
                 <meta property="og:title" content="Grupo Maximiano" /> {/* title shown in the actual shared post */}
-                <meta property="og:description" content="A startup qe irá revolucionar seus negócios. Confira mais em nosso site." /> {/* description shown in the actual shared post */}
+                <meta property="og:description" content="Ajudamos você a colocar sua empresa no topo com estratégia !" /> {/* description shown in the actual shared post */}
                 <meta property="og:image" content="../public/images/bgHome.webp" /> {/* image link, make sure it's jpg */}
                 <meta property="og:url" content="" /> {/* where do you want your post to link to */}
                 <meta property="og:type" content="article" />
+                <meta name="twitter:image" content="../public/images/bgHome.webp" />
 
                 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
                 <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -37,9 +38,8 @@ class MyDocument extends Document {
                 <script src="/js/jquery-3.2.1.min.js"></script>
                 <script src="/js/popper.min.js"></script>
                 <script src="/js/bootstrap.min.js"></script>
-                <script src="/js/images-loded.min.js"></script>
                 <script src="/js/custom.js"></script>
-                <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-1ea3fedbd4144c81bb2ea0685bbee30e.js'></script>
+                <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-8f5467fae9a84f80a19eb534d46d428a.js'></script>
                 <script type="text/javascript" src=" https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
               </body>
       </Html>
