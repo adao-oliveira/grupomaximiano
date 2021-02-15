@@ -21,7 +21,7 @@ export default function Sobre() {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.00,
+          minHeight: 100.00,
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
@@ -35,7 +35,7 @@ export default function Sobre() {
 
       <div className="relative pb-48 flex content-center items-center justify-center min-h-screen-75">
         <div className="absolute top-0 w-full h-full bg-center bg-cover" id="main">
-        <main id="blackOverlay" className="w-full h-full absolute" ref={vantaRef}></main>
+        <main id="blackOverlay" className="w-full h-full absolute -mt-20" ref={vantaRef}></main>
         </div>
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
