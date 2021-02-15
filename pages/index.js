@@ -15,9 +15,9 @@ export default function Sobre() {
         NET({
           el: vantaRef.current,
           THREE,
-          color: 0xd8d8d8,
+          color: 0x59ff,
           backgroundColor: 0x111111,
-          maxDistance: 23,
+          maxDistance: 20,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
@@ -33,7 +33,7 @@ export default function Sobre() {
     <>
       {/* start home */}
 
-      <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+      <div className="relative pb-48 flex content-center items-center justify-center min-h-screen-75">
         <div className="absolute top-0 w-full h-full bg-center bg-cover" id="main">
         <main id="blackOverlay" className="w-full h-full absolute" ref={vantaRef}></main>
         </div>
@@ -54,7 +54,7 @@ export default function Sobre() {
         >
         </div>
       </div>
-      <section className="bg-gray-300 -mt-24">
+      <section className="bg-gray-300 -mt-48">
         <div id="our-process" className="relative">
         <div className="col-lg-8 px-4 ml-auto mr-auto text-center">
               <div className="banner-frame">
