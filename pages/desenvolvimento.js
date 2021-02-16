@@ -39,10 +39,10 @@ const Services = () => {
 
             {/* card 1 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service1.svg"
@@ -51,8 +51,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...
@@ -64,10 +64,10 @@ const Services = () => {
 
             {/* card 2 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service2.svg"
@@ -76,8 +76,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...
@@ -88,10 +88,10 @@ const Services = () => {
 
             {/* card 3 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service3.svg"
@@ -100,8 +100,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...
@@ -112,10 +112,10 @@ const Services = () => {
 
             {/* card 1 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service1.svg"
@@ -124,8 +124,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...
@@ -137,10 +137,10 @@ const Services = () => {
 
             {/* card 2 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service2.svg"
@@ -149,8 +149,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...
@@ -161,10 +161,10 @@ const Services = () => {
 
             {/* card 3 */}
 
-            <div class="col-sm-6 col-lg-4 pb-5">
-              <div class="bg-white shadow-2xl rounded-lg" >
+            <div className="col-sm-6 col-lg-4 pb-5">
+              <div className="bg-white shadow-2xl rounded-lg" >
                 <div>
-                  <h2 class="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                  <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
                   <Image
                     className="img-thumbnail img-fluid"
                     src="/images/service3.svg"
@@ -173,8 +173,8 @@ const Services = () => {
                     alt="img-background"
                   />
                 </div>
-                <div class="px-4 py-2 mt-2 bg-white">
-                  <p class="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
+                <div className="px-4 py-2 mt-2 bg-white">
+                  <p className="sm:text-sm text-xls text-gray-700 px-2 mr-1 my-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
                     maxime deserunt porro amet ab debitis deleniti modi soluta similique...

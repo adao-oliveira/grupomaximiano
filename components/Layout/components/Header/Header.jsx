@@ -103,7 +103,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <Link href="/reuniao">
-                  <button type="button" class="btn btn-warning">MARCAR REUNIÃO</button>
+                  <button type="button" className="btn btn-warning">MARCAR REUNIÃO</button>
                 </Link>
               </ul>
             </div>

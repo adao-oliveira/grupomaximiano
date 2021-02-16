@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             {/* SEO Meta Tags */}
             <meta name="description" content="" />

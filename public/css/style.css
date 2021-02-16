@@ -1,20 +1,4 @@
 /*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i');
-
-
-/*
-
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Quattrocento Sans', sans-serif;
-
-*/
-
-/*------------------------------------------------------------------
     IMPORT FILES
 -------------------------------------------------------------------*/
 
@@ -136,7 +120,6 @@
     margin-top: 10px;
 }
 /*------------------------------------------- Footer Main -----------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 footer{
   bottom: 0px;
@@ -338,7 +321,6 @@ footer{
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
  .about-box-main{
      padding: 20px 0px;
-     background-color: #D8D8D8;
 }
  .noo-sh-title{
      font-size: 28px;
@@ -402,6 +384,7 @@ footer{
    height: 35px;
    width: 3px;
    animation: cursor 0.4s infinite;
+   font-weight: 600 !important;
  }
 
  /* The typewriter cursor effect */

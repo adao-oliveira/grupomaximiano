@@ -918,6 +918,11 @@ video {
   background-color: rgba(0, 0, 0, var(--bg-opacity));
 }
 
+.bg-gold {
+  --bg-opacity: 1;
+  background-color: #ffbf00;
+}
+
 .bg-white {
   --bg-opacity: 1;
   background-color: #fff;

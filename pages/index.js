@@ -54,7 +54,7 @@ export default function Sobre() {
         >
         </div>
       </div>
-      <section className="bg-gray-300 -mt-48">
+      <section className="-mt-48">
         <div id="our-process" className="relative">
         <div className="col-lg-8 px-4 ml-auto mr-auto text-center">
               <div className="banner-frame">
@@ -71,10 +71,13 @@ export default function Sobre() {
       </section>
 
       {/* end home */}
-      <div className="about-box-main">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
+      {/* container cards */}
+
+      {/* NOS SOMOS O GRUPO MAXIMIANO */}
+      <section className="m-2 font-sans leading-normal flex bg-redblue">
+        <div className="bg-white shadow-lg rounded overflow-hidden m-4 sm:flex my-12 mx-auto px-4 md:px-12">
+          <div className="row flex flex-wrap -mx-1 lg:-mx-4">
+            <div className="col-lg-6 mt-4">
               <h2 className="noo-sh-title">
                 Nós somos o <span className="text-warning">Grupo Maximiano</span>
               </h2>
@@ -88,7 +91,7 @@ export default function Sobre() {
                 nesciunt."
               </p>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mt-4">
               <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
@@ -98,16 +101,25 @@ export default function Sobre() {
                   alt="img-background"
                 />
               </div>
-              <div className="flex justify-center">
+              <div className="flex justify-center mb-4">
                 <Link href="/sobre">
                   <button type="button" className="btn bg-warning mt-4 text-dark font-semibold">Saiba mais sobre nós</button>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="row my-5">
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
+        </div>
+      </section>
+      
+      {/* END */}
+
+      {/* MISSAO, VISAO E VALORES */}
+
+      <section className="bg-gray-300">
+        <div id="our-process" className="relative">
+          <div className="flex flex-wrap items-center flex">
+            <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg mt-5 -mb-5 service-block-inner">
                 <h3>Nós somos confiáveis</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -115,8 +127,9 @@ export default function Sobre() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
+
+            <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg mt-5 -mb-5 service-block-inner">
                 <h3>Nós somos profissionais</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -124,8 +137,9 @@ export default function Sobre() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-4">
-              <div className="service-block-inner">
+
+            <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg mt-5 service-block-inner">
                 <h3>Nós somos especialistas</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -134,72 +148,70 @@ export default function Sobre() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* END */}
 
-          <section className="pb-16">
-            <div className="container mx-auto px-4">
-              <div className="flex flex-wrap justify-center text-center">
-                <div className="w-full lg:w-6/12 px-4">
-                  <h2 className="mt-5 text-4xl font-semibold">Conheça nosso time</h2>
-                  <p className="text-lg leading-relaxed m-4 text-gray-600">
-                    Cada integrante de nosso time possui sua respectiva habilidade, conheça um pouco sobre cada um de nossos integrantes:
+      <section className="pb-16">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center text-center">
+            <div className="w-full lg:w-6/12 px-4">
+              <h2 className="mt-5 text-4xl font-semibold">
+                Conheça nosso time
+              </h2>
+                <p className="text-lg leading-relaxed m-4 text-gray-600">
+                  Cada integrante de nosso time possui sua respectiva habilidade, conheça um pouco sobre cada um de nossos integrantes:
                 </p>
-                </div>
-              </div>
-              <div className="flex flex-wrap">
-                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
-                  <div className="px-6">
-                    <Image
-                      src="/images/img-1.webp"
-                      width="3456"
-                      height="5184"
-                      alt="..."
-                      className="mx-auto max-w-120-px"
-                    />
-                    <div className="text-center">
-                      <h5 className="mt-1 text-xl font-bold">Adão Oliveira</h5>
-                      <p className="text-sm text-gray-500 uppercase font-semibold">
-                        Programador
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center text-center">
+            <div className="w-full md:w-3/12 lg:w-3/12 lg:mb-0">
+              <div className="p-10">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                  <Image
+                    src="/images/img-1.webp"
+                    width="3456"
+                    height="5184"
+                    alt="..."
+                    className="mx-auto max-w-120-px"
+                  />
+                  <div className="px-6 py-4">
+                    <h5 className="mt-1 text-xl font-bold">Adão Oliveira</h5>
+                    <p className="text-sm text-gray-500 uppercase font-semibold">
+                      Programador
                     </p>
-                      <div>
-                      <Link href="https://www.facebook.com/AdaoOliveira.17">
-                        <button
-                          className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
-                          type="button"
-                        >
-                          <i className="fab fa-facebook-f"></i>
-                        </button>
-                      </Link>
-                      <Link href="https://www.instagram.com/daoo_oliveira/">
-                        <button
-                          className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
-                          type="button"
-                        >
-                          <i className="fab fa-instagram"></i>
-                        </button>
-                      </Link>
-                      <Link href="/">
-                        <button
-                          className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
-                          type="button"
-                        >
-                          <i className="fab fa-whatsapp"></i>
-                        </button>
-                      </Link>
-                      <Link href="mailto:adao.domingos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
-                        <button
-                          className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
-                          type="button"
-                        >
-                          <i class="fas fa-envelope-square"></i>
-                        </button>
-                      </Link>
-                      </div>
-                    </div>
+                  </div>
+                  <div>
+                    <Link href="https://www.facebook.com/AdaoOliveira.17">
+                      <button className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1" type="button">
+                        <i className="fab fa-facebook-f"></i>
+                      </button>
+                    </Link>
+                    <Link href="https://www.instagram.com/daoo_oliveira/">
+                      <button className="bg-redblue text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1" type="button">
+                        <i className="fab fa-instagram"></i>
+                      </button>
+                    </Link>
+                    <Link href="/">
+                      <button className="bg-green-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1" type="button">
+                        <i className="fab fa-whatsapp"></i>
+                      </button>
+                    </Link>
+                    <Link href="mailto:adao.domingos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
+                      <button className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1" type="button">
+                        <i className="fas fa-envelope-square"></i>
+                      </button>
+                    </Link>
                   </div>
                 </div>
-                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
-                  <div className="px-6">
+              </div>
+            </div>
+
+            {/* EDNA */}
+            <div className="w-full md:w-3/12 lg:w-3/12 lg:mb-0">
+              <div className="p-10">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
                     <Image
                       src="/images/img-2.webp"
                       width="3456"
@@ -207,13 +219,14 @@ export default function Sobre() {
                       alt="..."
                       className="mx-auto max-w-120-px"
                     />
-                    <div className="text-center">
+                  <div className="px-6 py-4">
                       <h5 className="mt-1 text-xl font-bold">Edna Santos</h5>
                       <p className="text-sm text-gray-500 uppercase font-semibold">
                         Marketing
                     </p>
-                      <div>
-                      <Link href="https://www.facebook.com/edna.maximiano">
+                  </div>
+                  <div>
+                  <Link href="https://www.facebook.com/edna.maximiano">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -242,29 +255,33 @@ export default function Sobre() {
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
-                          <i class="fas fa-envelope-square"></i>
+                          <i className="fas fa-envelope-square"></i>
                         </button>
                       </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12">
-                  <div className="px-6">
-                    <Image
+              </div>
+            </div>
+
+            {/* RODNEI */}
+            <div className="w-full md:w-3/12 lg:w-3/12 lg:mb-0">
+              <div className="p-10">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                <Image
                       src="/images/img-3.webp"
                       width="3456"
                       height="5184"
                       alt="..."
                       className="mx-auto max-w-120-px"
                     />
-                    <div className="text-center">
-                      <h5 className="mt-1 text-xl font-bold">Rodnei Santos</h5>
+                  <div className="px-6 py-4">
+                  <h5 className="mt-1 text-xl font-bold">Rodnei Santos</h5>
                       <p className="text-sm text-gray-500 uppercase font-semibold">
                         Comercial
                     </p>
-                      <div>
-                      <Link href="https://www.facebook.com/rodneymaximianosilva">
+                  </div>
+                  <div>
+                  <Link href="https://www.facebook.com/rodneymaximianosilva">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -293,29 +310,33 @@ export default function Sobre() {
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
-                          <i class="fas fa-envelope-square"></i>
+                          <i className="fas fa-envelope-square"></i>
                         </button>
                       </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-3">
-                  <div className="px-6">
-                    <Image
+              </div>
+            </div>
+
+            {/* GLAUCIANE */}
+            <div className="w-full md:w-3/12 lg:w-3/12 lg:mb-0">
+              <div className="p-10">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg">
+                <Image
                       src="/images/img-4.webp"
                       width="3456"
                       height="5184"
                       alt="..."
                       className="mx-auto max-w-120-px"
                     />
-                    <div className="text-center">
-                      <h5 className="mt-1 text-xl font-bold">Glauciane</h5>
+                  <div className="px-6 py-4">
+                  <h5 className="mt-1 text-xl font-bold">Glauciane</h5>
                       <p className="text-sm text-gray-500 uppercase font-semibold">
                         Tráfego pago
                     </p>
-                      <div>
-                      <Link href="/">
+                  </div>
+                  <div>
+                  <Link href="/">
                         <button
                           className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -344,20 +365,18 @@ export default function Sobre() {
                           className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                           type="button"
                         >
-                          <i class="fas fa-envelope-square"></i>
+                          <i className="fas fa-envelope-square"></i>
                         </button>
                       </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-
-
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* end container cards */}
       <div className="relative">
         <img src="/images/wave3.svg" className="w-full absolute bottom-full h-16 lg:h-auto object-cover object-top" />
       </div>
