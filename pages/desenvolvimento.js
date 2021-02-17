@@ -26,7 +26,7 @@ const Services = () => {
               <div className="banner-frame">
                 <Image
                   className="img-thumbnail img-fluid"
-                  src="/images/bgHome.webp"
+                  src="/images/Desenv.webp"
                   width="5184"
                   height="3456"
                   alt="img-background"

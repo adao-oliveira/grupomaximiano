@@ -374,29 +374,6 @@ footer{
 }
 
 
-/*------------------------------------------------------------ estilos do efeito digitando SUA HISTÓRIA COMEÇA CONOSCO ---------------------------------------------------------*/
-
-#text:after{
-  content: '';
-   display: inline-block;
-   background-color: #ffbf00;
-   margin-left: 5px;
-   height: 35px;
-   width: 3px;
-   animation: cursor 0.4s infinite;
-   font-weight: 600 !important;
- }
-
- /* The typewriter cursor effect */
- @keyframes cursor {
-   0% { opacity: 1; }
-     49% { opacity: 1; }
-     50% { opacity: 0; }
-     100% { opacity: 0; }
- }
-
-
-
 /*----------------------------------------------------------- efeito de transicao de texto na pagina sobre NÓS SOMOS O GRUPO MAXIMIANO ------------------------------------------*/
 
  #textSlider {
