@@ -48,7 +48,13 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
                   <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full">
-                    <img src="https://cdn.icon-icons.com/icons2/1537/PNG/128/1562707-define-the-goal-mission-target_107048.png" />
+                    <Image
+                      className="img-fluid"
+                      src="/images/missao.webp"
+                      width="5184"
+                      height="5184"
+                      alt="img-background"
+                    />
                   </div>
                   <h6 className="text-xl font-semibold">Missão</h6>
                   <p className="text-gray-600">
@@ -64,7 +70,13 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
                   <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full bg-blue-300">
-                    <img src="https://cdn.icon-icons.com/icons2/2072/PNG/512/eye_focus_internet_scan_security_view_vision_icon_127102.png" />
+                    <Image
+                      className="img-fluid"
+                      src="/images/visao.webp"
+                      width="5184"
+                      height="3456"
+                      alt="img-background"
+                    />
                   </div>
                   <h6 className="text-xl font-semibold">Visão</h6>
                   <p className="text-gray-600">
@@ -78,7 +90,13 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
                   <div className="text-white text-center inline-flex items-center justify-center w-12 h-12 mb-3 shadow-lg rounded-full bg-dark">
-                    <img src="https://cdn.icon-icons.com/icons2/1137/PNG/128/1486394970-16-value_80561.png" />
+                    <Image
+                      className="img-fluid"
+                      src="/images/valores.webp"
+                      width="5184"
+                      height="3456"
+                      alt="img-background"
+                    />
                   </div>
                   <h6 className="text-xl font-semibold">Valores</h6>
                   <p className="mt-2 text-gray-600">
@@ -130,10 +148,10 @@ export default function Home() {
 
       {/* porque nos escolher / nossas vantagens */}
 
-      <div class="pt-6 pb-12">
-        <div class="m-2 font-sans leading-normal flex">
-          <div v-for="card in cards" class="bg-white shadow-lg rounded overflow-hidden m-4 sm:flex my-12 mx-auto px-4 md:px-12">
-            <div class="h-full w-full w-auto md:w-1/2">
+      <div className="pt-6 pb-12">
+        <div className="m-2 font-sans leading-normal flex">
+          <div v-for="card in cards" className="bg-white shadow-lg rounded overflow-hidden m-4 sm:flex my-12 mx-auto px-4 md:px-12">
+            <div className="h-full w-full w-auto md:w-1/2">
               <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row">
                   <div className="md:w-1/2">

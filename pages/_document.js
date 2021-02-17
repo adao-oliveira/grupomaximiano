@@ -39,7 +39,7 @@ class MyDocument extends Document {
                 <script src="/js/popper.min.js"></script>
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/custom.js"></script>
-                <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-8f5467fae9a84f80a19eb534d46d428a.js'></script>
+                <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-8160e30241ee47c8b6b41f92066b5dcb.js'></script>
                 <script type="text/javascript" src=" https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
               </body>
       </Html>
