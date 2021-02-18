@@ -17,6 +17,7 @@
     "next-images": "^1.6.2",
     "nuka-carousel": "^4.7.5",
     "react": "^16.13.1",
+    "react-dom": "^17.0.1",
     "three": "^0.125.2",
     "vanta": "^0.5.21"
   },
