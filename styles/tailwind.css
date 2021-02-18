@@ -923,6 +923,11 @@ video {
   background-color: #ffbf00;
 }
 
+.bg-darklight {
+  --bg-opacity: 1;
+  background-color: #111111;
+}
+
 .bg-white {
   --bg-opacity: 1;
   background-color: #fff;

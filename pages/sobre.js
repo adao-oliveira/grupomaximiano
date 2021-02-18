@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Carousel from 'nuka-carousel';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       {/* start home */}
 
       <div className="relative pb-48 flex content-center items-center justify-center min-h-screen-75">
-        <div className="absolute top-0 w-full h-full bg-center bg-cover"
+        <div className="absolute -top-12 w-full h-full bg-center bg-cover"
           style={{
             backgroundImage:
               "url('https://image.freepik.com/fotos-gratis/ampola-com-grafico-do-desenho_1232-2105.jpg')",
@@ -130,9 +131,9 @@ export default function Home() {
             <div className="col-lg-6 mt-4 w-full md:w-5/12 ml-auto mr-auto px-4">
               <h3 className="text-xl font-semibold mt-3">Uma empresa em crescimento</h3>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                Nosso sucesso é fazer nossos clientes ser o sucesso, ajudando a aumentar sua produtividade,
-                crescimento e aumento das vendas, visando colocar o cliente na era digial através de
-                nossos serviços e fazer nossos clientes a alcançarem o auge!
+                Nosso objetivo é proporcionar ao cliente o sucesso de seus sonhos, ajudando a aumentar sua produtividade,
+                crescimento e aumento das vendas, visando colocar você cliente na era digial através de
+                nossos serviços e fazer nossos clientes a alcançarem o auge !
                 </p>
               <div className="flex justify-center mb-4">
                 <Link href="/servicos">
@@ -148,16 +149,15 @@ export default function Home() {
 
       {/* porque nos escolher / nossas vantagens */}
 
-      <div className="pt-6 pb-12">
-        <div className="m-2 font-sans leading-normal flex">
-          <div v-for="card in cards" className="bg-white shadow-lg rounded overflow-hidden m-4 sm:flex my-12 mx-auto px-4 md:px-12">
+      <div className="pb-4">
+        <div className="m-2 leading-normal flex">
+          <div v-for="card in cards" className="bg-gold shadow-lg rounded overflow-hidden m-4 sm:flex my-12 mx-auto px-4 md:px-12">
             <div className="h-full w-full w-auto md:w-1/2">
               <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row">
-                  <div className="md:w-1/2">
-                    <h3 className="flex flex-col text-4xl text-dark font-normal mb-6 mt-4">
-                      Por que nos escolher?
-                    <span className="bg-warning h-1 w-25 block mt-4"></span>
+                  <div className="col-lg-6 mt-4">
+                    <h3 className="flex flex-col text-4xl text-darklight font-semibold mb-6 mt-4">
+                      Por que nos escolher ?
                     </h3>
                     <p className="text-lg text-secondary-700 mb-4">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet est tellus,
@@ -170,64 +170,89 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="bg-white mt-30 py-12 rounded-lg">
+              <div className="bg-gold py-12 rounded-lg">
                 <div className="container mx-auto px-6">
                   <div className="flex flex-col md:flex-row">
-                    <div className="md:w-1/2">
-                      <h3 className="flex flex-col text-4xl text-dark font-normal mb-6 mt-20">
+                    <div className="md:w-full">
+                      <span className="bg-darklight h-1 w-full block mt-4"></span>
+                      <h3 className="flex flex-col text-4xl text-darklight font-semibold mb-6 mt-10">
                         Nossas vantagens
                         <span className="bg-warning h-1 w-25 block mt-4"></span>
                       </h3>
                     </div>
                   </div>
                 </div>
-                <div className="row my-4 mr-1 ml-1">
-                  <div className="col-sm-6 col-lg-4">
-                    <div className="service-block-inner">
-                      <h3 className="text-center">Lorem ipsum</h3>
-                      <Image
-                        className="img-thumbnail img-fluid"
-                        src="/images/bgHome.webp"
-                        width="5184"
-                        height="3456"
-                        alt="img-background"
-                      />
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      </p>
+                <div className="row my-5">
+
+                  {/* card 1 */}
+
+                  <div className="col-sm-6 col-lg-4 pb-5">
+                    <div className="bg-white shadow-2xl rounded-lg" >
+                      <div>
+                        <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                        <Image
+                          className="img-thumbnail img-fluid"
+                          src="/images/service1.svg"
+                          width="5184"
+                          height="3456"
+                          alt="img-background"
+                        />
+                      </div>
+                      <div className="px-4 py-2 mt-2 bg-white">
+                        <p className="sm:text-sm text-lg text-gray-700 px-2 mr-1 my-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
+                          maxime deserunt porro amet ab debitis deleniti modi soluta similique...
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-lg-4">
-                    <div className="service-block-inner">
-                      <h3 className="text-center">Lorem ipsum</h3>
-                      <Image
-                        className="img-thumbnail img-fluid"
-                        src="/images/bgHome.webp"
-                        width="5184"
-                        height="3456"
-                        alt="img-background"
-                      />
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      </p>
+
+                  {/* card 2 */}
+
+                  <div className="col-sm-6 col-lg-4 pb-5">
+                    <div className="bg-white shadow-2xl rounded-lg" >
+                      <div>
+                        <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                        <Image
+                          className="img-thumbnail img-fluid"
+                          src="/images/service2.svg"
+                          width="5184"
+                          height="3456"
+                          alt="img-background"
+                        />
+                      </div>
+                      <div className="px-4 py-2 mt-2 bg-white">
+                        <p className="sm:text-sm text-lg text-gray-700 px-2 mr-1 my-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
+                          maxime deserunt porro amet ab debitis deleniti modi soluta similique...
+                        </p>
+                      </div>
                     </div>
                   </div>
+
+                  {/* card 3 */}
+
                   <div className="col-sm-6 col-lg-4">
-                    <div className="service-block-inner">
-                      <h3 className="text-center">Lorem ipsum</h3>
-                      <Image
-                        className="img-thumbnail img-fluid"
-                        src="/images/bgHome.webp"
-                        width="5184"
-                        height="3456"
-                        alt="img-background"
-                      />
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      </p>
+                    <div className="bg-white shadow-2xl rounded-lg" >
+                      <div>
+                        <h2 className="font-semibold uppercase text-2xl text-center pb-3 pt-2">Loren ipsum</h2>
+                        <Image
+                          className="img-thumbnail img-fluid"
+                          src="/images/service3.svg"
+                          width="5184"
+                          height="3456"
+                          alt="img-background"
+                        />
+                      </div>
+                      <div className="px-4 py-2 mt-2 bg-white">
+                        <p className="sm:text-sm text-lg text-gray-700 px-2 mr-1 my-3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Tempora reiciendis ad architecto at aut placeat quia, minus dolor praesentium officia
+                          maxime deserunt porro amet ab debitis deleniti modi soluta similique...
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -244,7 +269,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center text-center">
             <div className="w-full lg:w-6/12 px-4">
-              <h2 className="mt-5 text-4xl font-semibold">Conheça nosso time</h2>
+              <h2 className="text-4xl font-semibold">Conheça nosso time</h2>
               <p className="text-lg leading-relaxed m-4 text-gray-600">
                 Cada integrante de nosso time possui sua respectiva habilidade, conheça um pouco sobre cada um de nossos integrantes:
                 </p>

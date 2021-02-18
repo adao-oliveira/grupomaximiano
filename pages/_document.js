@@ -31,6 +31,7 @@ class MyDocument extends Document {
                 <link rel="stylesheet" href="/css/style.css" />
                 <link rel="stylesheet" href="/css/responsive.css" />
                 <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"></link> 
+                <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet"></link>
         </Head>
               <body>
                 <Main />
@@ -40,7 +41,8 @@ class MyDocument extends Document {
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/custom.js"></script>
                 <script src='https://llwhatsapp.blob.core.windows.net/whatschat-scripts/whatschat-8160e30241ee47c8b6b41f92066b5dcb.js'></script>
-                <script type="text/javascript" src=" https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
+                <script type="text/javascript" src="https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/master/src/jquery.mask.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
               </body>
       </Html>
     );
