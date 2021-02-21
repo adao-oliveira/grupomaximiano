@@ -196,7 +196,7 @@ export default function Sobre() {
                         <i className="fab fa-whatsapp"></i>
                       </button>
                     </Link>
-                    <Link href="mailto:adao.domingos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
+                    <Link href="mailto:adao.domingos@grupomaximiano.com?Subject=Serviços%20Grupo%20Maximiano&Body=Digite%20uma%20mensagem...">
                       <button className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1" type="button">
                         <i className="fas fa-envelope-square"></i>
                       </button>
@@ -248,7 +248,7 @@ export default function Sobre() {
                         <i className="fab fa-whatsapp"></i>
                       </button>
                     </Link>
-                    <Link href="mailto:edna.santos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
+                    <Link href="mailto:edna.santos@grupomaximiano.com?Subject=Serviços%20Grupo%20Maximiano&Body=Digite%20uma%20mensagem...">
                       <button
                         className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -303,7 +303,7 @@ export default function Sobre() {
                         <i className="fab fa-whatsapp"></i>
                       </button>
                     </Link>
-                    <Link href="mailto:rodney.santos@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
+                    <Link href="mailto:rodney.santos@grupomaximiano.com?Subject=Serviços%20Grupo%20Maximiano&Body=Digite%20uma%20mensagem...">
                       <button
                         className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -334,7 +334,7 @@ export default function Sobre() {
                     </p>
                   </div>
                   <div>
-                    <Link href="/">
+                    <Link href="https://www.facebook.com/profile.php?id=100009032267080">
                       <button
                         className="mt-3 bg-blue-600 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -358,7 +358,7 @@ export default function Sobre() {
                         <i className="fab fa-whatsapp"></i>
                       </button>
                     </Link>
-                    <Link href="mailto:glauciane.carvalho@grupomaximiano.com.br?Subject=Servi%E7os%20Grupo%20Maximiano&Body=Ol%E1%21%20Eu%20gostaria%20de%20mais%20informa%E7%F5es%20a%20respeito%20de%20seu%20neg%F3cio.">
+                    <Link href="mailto:glauciane.carvalho@grupomaximiano.com?Subject=Serviços%20Grupo%20Maximiano&Body=Digite%20uma%20mensagem...">
                       <button
                         className="bg-blue-500 text-white w-10 h-10 outline-none focus:outline-none mr-1 mb-1"
                         type="button"

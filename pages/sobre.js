@@ -420,7 +420,7 @@ export default function Home() {
                     Tráfego pago
                     </p>
                   <div>
-                    <Link href="/">
+                    <Link href="https://www.facebook.com/profile.php?id=100009032267080">
                       <button
                         className="mt-3 bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
